@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f0;
+  color: #333;
+}
+
+/* ENCABEZADO */
+header {
+  background: #ffcb7e;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #5c3d00;
+  font-weight: bold;
+}
+
+/* SECCIÓN INICIO CON IMAGEN */
+#inicio {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff8f0;
+}
+
+.contenido-inicio {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  border: 8px solid #ffcb7e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-marco {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+.caja-texto {
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+  padding: 20px 30px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.caja-texto h2 {
+  font-size: 2em;
+  margin: 0;
+  color: #fffacd; /* Amarillo claro */
+}
+
+.caja-texto p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+/* LISTA DE MASCOTAS */
+.lista-mascotas {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.lista-mascotas h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #ffe8c2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* FORMULARIO */
+.formulario {
+  background-color: #fffaee;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.formulario form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formulario button {
+  background: #ffa500;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #cc8400;
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background: #ffcb7e;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}

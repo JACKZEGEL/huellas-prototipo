@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Huellas sin Hogar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🐾 Huellas sin Hogar</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#mascotas">Mascotas</a>
+      <a href="#formulario">Adopción</a>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN INICIO CON IMAGEN Y TEXTO CENTRADO -->
+  <section id="inicio">
+    <div class="contenido-inicio">
+      <img src="Mascotas.jpg" alt="Mascotas para adopción" class="imagen-marco">
+      <div class="texto-encima">
+        <div class="caja-texto">
+          <h2>Un hogar para quienes más lo necesitan</h2>
+          <p>Adopta, cambia una vida y gana una pata amiga 🐶🐱</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN LISTA DE MASCOTAS -->
+  <section id="mascotas" class="lista-mascotas">
+    <h2>Nuestras Mascotas</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="Firulais.jpg" alt="Firulais">
+        <h3>Firulais</h3>
+        <p>Edad: 2 años | Tierno y juguetón</p>
+      </div>
+      <div class="card">
+        <img src="Michi.jpg" alt="Michi">
+        <h3>Michi</h3>
+        <p>Edad: 1 año | Dulce y tranquila</p>
+      </div>
+      <div class="card">
+        <img src="Luna.jpg" alt="Luna">
+        <h3>Luna</h3>
+        <p>Edad: 3 años | Protectora y cariñosa</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FORMULARIO DE ADOPCIÓN -->
+  <section id="formulario" class="formulario">
+    <h2>Formulario de Adopción</h2>
+    <form id="adopcionForm">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="¿Por qué deseas adoptar?" required></textarea>
+      <button type="submit">Enviar Solicitud</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Huellas sin Hogar. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
